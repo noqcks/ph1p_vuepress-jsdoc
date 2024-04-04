@@ -6,7 +6,7 @@
  * ---
  */
 import chokidar from 'chokidar';
-import del from 'del';
+import('del');
 import kleur from 'kleur';
 import { mkdirp } from 'mkdirp';
 import fs from 'node:fs/promises';
